@@ -13,7 +13,7 @@ export const Metrics = ({title, color, icon, data}) => {
                         </div>
                         <div className="col-auto">
                             <i className={`fas ${icon} fa-2x text-gray-300`}></i>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>
