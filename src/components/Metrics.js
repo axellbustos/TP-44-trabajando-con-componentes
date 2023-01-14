@@ -25,4 +25,8 @@ Metrics.propTypes={
     color:PropTypes.string.isRequired,
     data:PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired
 }
-
+Metrics.defaultProps={
+    title:'Sin titulo',
+    color:'primary',
+    data:'sin datos para mostrar'
+}
