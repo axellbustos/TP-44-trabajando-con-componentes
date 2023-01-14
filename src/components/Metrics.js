@@ -20,4 +20,9 @@ export const Metrics = ({title, color, icon, data}) => {
         </div>
     )
 }
+Metrics.propTypes={
+    title:PropTypes.string.isRequired,
+    color:PropTypes.string.isRequired,
+    data:PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired
+}
 
